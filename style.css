@@ -12,6 +12,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: #c04000;
 }
 
 .container {
@@ -33,7 +34,7 @@ body {
     /* position relative will allow postioning h3 as absolute inside the images */
     position: relative;
     /* adding a transition on the flex property */
-    transition: flex 0.7s ease-in;
+    transition: flex 1.5s ease-in-out;
 }
 
 .panel h3 {
